@@ -2,7 +2,6 @@
 int main()
 {
 	char s;
-	printf("enter the letter:");
 	scanf("%c",&s);
 	if((s<='z' && s>='a') || (s<='Z' && s>='A'))
 	{
