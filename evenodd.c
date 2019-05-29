@@ -4,20 +4,17 @@ int main()
 	int n;
 	printf("enter the no:");
 	scanf("%d",&n);
-	while(n>0)
-	{
-		if(n%2==0)
+		if(n%2==0 && n>0)
 		{
 			printf("Even");
 		}
-		else
+		else if(n%2!=0 && n>0)
 		{
 			printf("Odd");
 		}
-	}
-	if(n<0)
-	{
-		printf("Invalid");
-	}
+		else
+		{
+			printf("Invalid");
+		}
 return 0;
 }
